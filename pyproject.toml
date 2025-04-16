@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qufy"
+version = "0.0.1"
+authors = [
+  { name="Lennart Binkowski", email="lennart.binkowski@itp.uni-hannover.de" },
+]
+description = "Source code for the quantum Fisher Yates shuffle in Qiskit"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/MarkAureli/QuantumFisherYates"
